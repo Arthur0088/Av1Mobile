@@ -54,7 +54,7 @@ class _CenteredInputWidgetState extends State<CenteredInputWidget> {
         title: const Text('Sistema de Informação'),
         backgroundColor: Colors.green[700],
       ),
-      body: Center(
+      body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.all(20.0),
           child: Column(
