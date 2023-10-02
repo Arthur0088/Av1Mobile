@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:io';
 
 void main() => runApp(MyApp());
 
@@ -81,7 +82,7 @@ class _CenteredInputWidgetState extends State<CenteredInputWidget> {
                   CustomElevatedButton(
                       text: 'Sair',
                       onPressed: () {
-                        Navigator.of(context).pop();
+                        exit(0);
                       }),
                 ],
               ),
